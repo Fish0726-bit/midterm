@@ -36,21 +36,29 @@
   }
   .button1
   {
+    font-size: 30px;
+    font-weight:900;
     color: red;
     background-color:yellow;
   }
   .button2
   {
+    font-size: 30px;
+    font-weight:900;
     color:blue;
     background-color:yellow;
   }
   .button3
   {
+    font-size: 30px;
+    font-weight:900;
     color:yellow;
     background-color:blue;
   }
   .button4
   {
+    font-size: 30px;
+    font-weight:900;
     color:green;
     background-color:yellow;
   }
@@ -60,22 +68,22 @@
   function show1()
   {
     document.getElementById("t1").innerHTML="滑鼠滑過" 
-    document.getElementById("t1").className="button1"
+    document.getElementById("p1").className="button1"
   }
   function show2()
   {
     document.getElementById("t1").innerHTML="滑鼠離開"  
-    document.getElementById("t1").className="button2"
+    document.getElementById("p1").className="button2"
   }
   function show3()
   {
     document.getElementById("t1").innerHTML="滑鼠按下"  
-    document.getElementById("t1").className="button3"
+    document.getElementById("p1").className="button3"
   }
   function show4()
   {
     document.getElementById("t1").innerHTML="滑鼠放開"  
-    document.getElementById("t1").className="button4"
+    document.getElementById("p1").className="button4"
   }
 </script>
 <!-- Google tag (gtag.js) -->
@@ -121,7 +129,7 @@
         <div class="content_item">
           <p class="s4">滑鼠事件</p>
           <hr>
-          <button onmouseover="show1()" onmouseout="show2()" onmousedown="show3()" onmouseup="show4()" id="p1" src="button">各種滑鼠事件</button>
+          <button onmouseover="show1()" onmouseout="show2()" onmousedown="show3()" onmouseup="show4()" id="p1" class="button">各種滑鼠事件</button>
           <p class="s3" id="t1"></p>
           <h1>Welcome to your website</h1>
           <p>This standards compliant, simple, fixed width website template is released as an 'open source' design (under the Creative Commons Attribution 3.0 Licence), which means that you are free to download and use it for anything you want (including modifying and amending it). If you wish to remove the 'ARaynorDesign' link in the footer of the template, please contact me first, but other than that...</p>
